@@ -1,0 +1,91 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #5EA47B;
+    height: 10vh;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: auto;
+    height: auto;
+    margin-right: 1vw;
+}
+
+h1{
+    font-size: 2vw;
+    align-self: center;
+    max-width: 12vw;
+}
+
+.box {
+    border: none;
+    margin: 0.5em;
+    border-left: solid #ffffff 1px;
+}
+
+ul {
+    margin: 0px;
+    padding: 1.5vh;
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    display: grid;
+    width: 18vw;
+    height: 6vh;
+    place-content: center;
+    color: black;
+    font-size: 1.5vw;
+    text-decoration: none;
+    border: solid #BBEEB1 1px;
+    border-radius: 5px;
+    background-color: #BBEEB1;
+}
+
+main {
+    display: flex;
+    background-color: #F0FFF4;
+    height: 80vh;
+    flex-direction: row-reverse;
+}
+
+article {
+    border: 1px #BDF0CC solid;
+    background-color: #BDF0CC;
+    flex-basis: 65%;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    border-radius: 18px;
+    padding: 1em;
+}
+
+.koszulka{
+    scale: 90%;
+    flex-basis: 25%;
+    border-radius: 18px;
+}
+
+footer {
+    background-color: #C9FEDF;
+    height: 10vh;
+}
