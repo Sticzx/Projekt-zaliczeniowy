@@ -20,13 +20,13 @@ header {
 .logo{
     width: auto;
     height: auto;
-    margin-right: 1vw;
 }
 
 h1{
     font-size: 2vw;
     align-self: center;
     max-width: 12vw;
+    margin: 3vw;
 }
 
 .box {
@@ -66,26 +66,60 @@ main {
     display: flex;
     background-color: #F0FFF4;
     height: auto;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.fifa{
+    scale: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h2{
+    text-align: center;
+    font-size: 5em;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-size: 2em;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3vh;
+}
+
+.top1 {
+    background-color: yellow;
+}
+
+.top2 {
+    background-color: gray;
+}
+
+.top3 {
+    background-color: brown;
 }
 
 article {
     border: 1px #BDF0CC solid;
     background-color: #BDF0CC;
-    flex-basis: 65%;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
+    flex-basis: 90%;
     border-radius: 18px;
-    padding: 1em;
+    margin: 2em;
+    text-align: center;
+    font-size: 1.3vw;
 }
 
-.koszulka{
-    scale: 90%;
-    flex-basis: 25%;
-    border-radius: 18px;
-}
+
 
 footer {
     background-color: #C9FEDF;
     height: 10vh;
+    display: grid;
+    justify-content: center;
+    place-content: center;
+    font-size: 2em;
 }

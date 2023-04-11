@@ -21,25 +21,28 @@
     </div>
     </header>
     <main>
-        <aside>
-            <h2>Skontaktuj się ze mną</h2>
-            <h2>Stadion - twierdza zaborze</h2>
-            <p>Przyjdź wesprzeć nas na meczu na bosiku przy ul. Wyciska w Zabrzu</p>
-            <h2>Mail</h2>
-            <p>Nie odczytuje i nie odpisuje od razu!</p>
-            <p>mateusz2k7@wp.pl</p>
-            <h2>Możesz mnie też śledzić na mediach społecznościowych</h2>
-        </aside>
         <section>
             <form>
                 <label for="email">Email: </label>
                 <input type="email" id="email" name="email">
                 <label for="name">Imię: </label>
                 <input type="text" id="name" name="name">
+                <label for="range">Jak oceniasz moją stronę</label>
+                <input type="range" id="range" name="range" min="1" max="10">
                 <label for="msg">Twoja wiadomość: </label>
-                <input type="text" id="msg" name="msg" placeholder="Wpisz wiadomość...">
+                <textarea id="msg" name="msg" placeholder="Wpisz wiadomość..."></textarea>
+                <input type="reset" id="btn" value="Wyczyść">
+                <input type="submit" id="btn" value="Prześlij">
             </form>
         </section>
+        <!-- <aside>
+            <h2>Skontaktuj się ze mną</h2>
+            <h2>Stadion - twierdza zaborze</h2>
+            <p>Przyjdź wesprzeć nas na meczu na bosiku przy ul. Wyciska w Zabrzu</p>
+            <h2>Mail</h2>
+            <p>Nie odczytuje i nie odpisuje od razu!</p>
+            <p>Sycz@gmail.com</p>
+        </aside> -->
     </main>
     <footer>
         &copy; Mateusz Sycz 2023r.
