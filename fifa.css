@@ -51,7 +51,7 @@ li{
 a {
     display: block;
     display: grid;
-    width: 18vw;
+    width: 12vw;
     height: 6vh;
     place-content: center;
     color: black;

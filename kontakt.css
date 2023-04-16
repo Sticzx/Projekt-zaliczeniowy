@@ -51,7 +51,7 @@ li{
 a {
     display: block;
     display: grid;
-    width: 18vw;
+    width: 12vw;
     height: 6vh;
     place-content: center;
     color: black;
@@ -64,49 +64,12 @@ a {
 
 main {
     background-color: #F0FFF4;
-    height: auto;
+    height: 80vh;
 }
 
 section {
     background-color: #F0FFF4;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    margin: 40px;
-    height: max-content;
-    flex-basis: 80%;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    border-radius: 25px;
-    justify-content: space-between;
-}
-
-label{
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 47%;
-    align-items: center;
-}
-
-input{
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    flex-basis: 100%;
-}
-
-#btn{
-    height: 3vh;
-    margin: 1vw;
-    border-radius: 20px;
-    background-color: #F0FFF4;
-    border: 1px solid black;
+    padding: 3vw;
 }
 
 footer {
