@@ -65,6 +65,9 @@ a {
 main {
     background-color: #F0FFF4;
     height: 80vh;
+    display: grid;
+    justify-content: center;
+    place-content: center;
 }
 
 section {

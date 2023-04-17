@@ -23,7 +23,6 @@ header {
 }
 
 h1{
-    border-right: 1px solid white;
     font-size: 2vw;
     align-self: center;
     max-width: 12vw;
@@ -34,7 +33,7 @@ h1{
 .box {
     border: none;
     margin: 0.5em;
-    /* border-left: solid #ffffff 1px; */
+    border-left: solid #ffffff 1px;
 }
 
 ul {
@@ -75,13 +74,13 @@ main {
 .mks{
     scale: 80%;
     flex-basis: 25%;
-    border-radius: 52px;
+    border-radius: 18px;
 }
 
 .bayern{
     scale: 80%;
     flex-basis: 25%;
-    border-radius: 52px;
+    border-radius: 18px;
 }
 
 article {

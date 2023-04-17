@@ -29,6 +29,10 @@ h1{
     max-width: 12vw;
 }
 
+h2{
+    text-align: center;
+}
+
 .box {
     border: none;
     margin: 0.5em;
@@ -77,8 +81,8 @@ article {
     margin-top: 4vh;
     margin-bottom: 4vh;
     border-radius: 18px;
-    text-align: center;
-    font-size: 2vw;
+    font-size: 3.3vh;
+    padding: 1rem;
 }
 
 .koszulka{
