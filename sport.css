@@ -20,7 +20,6 @@ header {
 .logo{
     width: auto;
     height: auto;
-    margin-right: 1vw;
 }
 
 h1{
@@ -29,6 +28,7 @@ h1{
     align-self: center;
     max-width: 12vw;
     padding: 0.5em;
+    margin: 1.2em;
 }
 
 .box {
@@ -107,8 +107,8 @@ h2 {
 
 .article3 {
     flex-basis: 95%;
-    margin-top: 8vh;
-    margin-bottom: 8vh; 
+    margin-top: 4vh;
+    margin-bottom: 4vh; 
 }
 
 footer {

@@ -23,10 +23,15 @@ header {
 }
 
 h1{
-    font-size: 2vw;
+    font-size: 3vw;
     align-self: center;
-    max-width: 12vw;
-    margin: 3vw;
+    max-width: 11vw;
+    padding: 0.5em;
+    margin: 1rem;
+}
+
+h2{
+    text-align: center;
 }
 
 .box {
@@ -88,7 +93,10 @@ table{
     font-size: 2em;
     width: 90%;
     margin: auto;
-    margin-bottom: 3vh;
+}
+
+td{
+    padding: 1rem;
 }
 
 .top1 {
@@ -107,9 +115,9 @@ article {
     border: 1px #BDF0CC solid;
     background-color: #BDF0CC;
     flex-basis: 90%;
+    margin: 2rem;
+    padding: 1rem;
     border-radius: 18px;
-    margin: 2em;
-    text-align: center;
     font-size: 1.3vw;
 }
 
