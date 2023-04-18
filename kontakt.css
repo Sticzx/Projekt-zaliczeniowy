@@ -9,8 +9,12 @@ body * {
     box-sizing: border-box;
 }
 
+a:hover{
+    scale: 110%;
+}
+
 header {
-    background-color: #5EA47B;
+    background-color: #467C5C;
     height: 10vh;
     color: #FFFFFF;
     display: flex;
@@ -27,6 +31,7 @@ h1{
     font-size: 2vw;
     align-self: center;
     max-width: 12vw;
+    margin-right: 1vw;
 }
 
 .box {
@@ -54,12 +59,17 @@ a {
     width: 12vw;
     height: 6vh;
     place-content: center;
-    color: black;
+    color: white;
     font-size: 1.5vw;
     text-decoration: none;
-    border: solid #BBEEB1 1px;
-    border-radius: 5px;
-    background-color: #BBEEB1;
+    border: 2px solid white;
+    border-radius: 18px;
+    background-color: #467C5C;
+}
+
+h2{
+    text-align: center;
+    font-size: 2vw;
 }
 
 main {
@@ -70,13 +80,84 @@ main {
     place-content: center;
 }
 
-section {
-    background-color: #F0FFF4;
-    padding: 3vw;
+fieldset{
+    border-radius: 20px;
+    border: none;
+}
+
+textarea{
+    height: 55vh;
+    width: 40vw;
+    background-color: #467C5C;
+    color: white;
+    font-size: 3vh;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.name{
+    margin-left: 7vw;
+}
+
+#btn{
+    background-color: #467C5C;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 20vw;
+    height: 3vh;
+    font-size: 2vh;
+    padding: 0;
+    margin: 0;
+}
+
+#reset{
+    background-color: #467C5C;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 20vw;
+    height: 3vh;
+    font-size: 2vh;
+    padding: 0;
+    margin: 0;
+}
+
+#btn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#reset:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+::placeholder { 
+    color: rgb(197, 194, 194);
+    opacity: 2; 
+  }
+  
+  :-ms-input-placeholder {
+    color: white;
+    opacity: 2; 
+  }
+  
+  ::-ms-input-placeholder {
+    color: white;
+    opacity: 2; 
+  }
+
+input{
+    background-color: #467C5C;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 2vh;
+    padding: 0.5em;
+    
 }
 
 footer {
-    background-color: #C9FEDF;
+    background-color: #467C5C;
+    color: white;
     height: 10vh;
     display: grid;
     justify-content: center;

@@ -10,7 +10,7 @@ body * {
 }
 
 header {
-    background-color: #5EA47B;
+    background-color: #467C5C;
     height: 10vh;
     color: #FFFFFF;
     display: flex;
@@ -49,18 +49,22 @@ li{
     list-style-type: none;
 }
 
-a {
+a:hover{
+    scale: 110%;
+}
+
+nav a {
     display: block;
     display: grid;
     width: 12vw;
     height: 6vh;
     place-content: center;
-    color: black;
+    color: white;
     font-size: 1.5vw;
     text-decoration: none;
-    border: solid #BBEEB1 1px;
-    border-radius: 5px;
-    background-color: #BBEEB1;
+    border: 2px solid white;
+    border-radius: 18px;
+    background-color: #467C5C;
 }
 
 main {
@@ -71,21 +75,20 @@ main {
     height: auto;
 }
 
-.mks{
-    scale: 80%;
-    flex-basis: 25%;
+a img{
+    height: 35vh;
+    margin-left: 2.5vw;
     border-radius: 18px;
 }
 
-.bayern{
-    scale: 80%;
+main a{
     flex-basis: 25%;
-    border-radius: 18px;
 }
 
 article {
-    border: 1px #BDF0CC solid;
-    background-color: #BDF0CC;
+    border: none;
+    color: white;
+    background-color: #467C5C;
     border-radius: 18px;
     padding: 1em;
     font-size: 1.3vw;
@@ -97,21 +100,24 @@ h2 {
 }
 
 .article1 {
-    flex-basis: 70%;
+    flex-basis: 95%;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
 }
 
 .article2 {
     flex-basis: 70%;
+    margin-bottom: 4vh;
 }
 
 .article3 {
-    flex-basis: 95%;
-    margin-top: 4vh;
+    flex-basis: 70%;
     margin-bottom: 4vh; 
 }
 
 footer {
-    background-color: #C9FEDF;
+    background-color: #467C5C;
+    color: white;
     height: 10vh;
     display: grid;
     justify-content: center;

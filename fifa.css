@@ -9,8 +9,12 @@ body * {
     box-sizing: border-box;
 }
 
+a:hover{
+    scale: 110%;
+}
+
 header {
-    background-color: #5EA47B;
+    background-color: #467C5C;
     height: 10vh;
     color: #FFFFFF;
     display: flex;
@@ -59,12 +63,12 @@ a {
     width: 12vw;
     height: 6vh;
     place-content: center;
-    color: black;
+    color: white;
     font-size: 1.5vw;
     text-decoration: none;
-    border: solid #BBEEB1 1px;
-    border-radius: 5px;
-    background-color: #BBEEB1;
+    border: 2px solid white;
+    border-radius: 18px;
+    background-color: #467C5C;
 }
 
 main {
@@ -108,12 +112,13 @@ td{
 }
 
 .top3 {
-    background-color: brown;
+    background-color: #DF4343;
 }
 
 article {
-    border: 1px #BDF0CC solid;
-    background-color: #BDF0CC;
+    border: none;
+    background-color: #467C5C;
+    color: white;
     flex-basis: 90%;
     margin: 2rem;
     padding: 1rem;
@@ -124,7 +129,8 @@ article {
 
 
 footer {
-    background-color: #C9FEDF;
+    background-color: #467C5C;
+    color: white;
     height: 10vh;
     display: grid;
     justify-content: center;
